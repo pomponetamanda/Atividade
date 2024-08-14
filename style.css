@@ -1,0 +1,23 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    font-weight: lighter;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre bordas das células */
+}
+th, td {
+    border: 1px solid black; /* Adiciona borda às células */
+    padding: 8px; /* Adiciona espaçamento interno às células */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+th {
+    background-color: #f2f2f2; /* Cor de fundo para cabeçalhos */
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo alternada para linhas pares */
+}
